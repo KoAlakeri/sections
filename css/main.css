@@ -1,5 +1,14 @@
 html {
   font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  margin: 0;
 }
 
 img {
@@ -15,10 +24,29 @@ div {
   text-align: left;
 }
 
+.btn {
+  display: inline-block;
+  padding: 0.4em 0.75em 0.4em;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 2;
+  border-color: #fff;
+  color: #333;
+  text-decoration: none;
+}
+
 .btn-ghost {
 
 }
 
 .btn-ghost:hover {
 
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
 }
