@@ -2,6 +2,7 @@ html {
   font-family: 'Lato', sans-serif;
   background-color: #f2f2f2;
   margin: 0;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
@@ -12,7 +13,11 @@ p {
   font-size: 1rem;
   line-height: 1.4rem;
   padding-top: 1rem;
-  padding-bottom:2rem;
+  padding-bottom: 2rem;
+}
+
+body {
+  margin: 0;
 }
 
 img {
@@ -38,11 +43,17 @@ div {
 }
 
 .btn-ghost {
-
+  color: #333;
+  border: 3px solid #000;
+  border-radius: .5em;
+  padding: .5em;
+  display: inline-block;
 }
 
 .btn-ghost:hover {
-
+  color: #fff;
+  background-color: #666;
+  border-color: #666;
 }
 
 html {
